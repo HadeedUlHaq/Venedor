@@ -814,4 +814,249 @@ header ul > li:hover > ul {
   border: 1px solid #404141;
   color: #999999;
 }
+
+.slider-nav div {
+  width: 100px;
+  background-color: #fff;
+}
+
+.slider-nav .slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.slider-nav .smllimg {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  margin: 10px 0px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.slider-nav .smllimg img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.7;
+  padding: 10px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.slider-nav .is-active .smllimg img {
+  border: 2px solid #7bae23;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+.slider-single {
+  position: relative;
+}
+
+.slider-single .slick-prev,
+.slider-single .slick-next {
+  z-index: 9;
+}
+
+.slider-single .slick-prev::before,
+.slider-single .slick-next::before {
+  font-family: "slick";
+  font-size: 25px;
+  opacity: 0.75;
+  color: #7bae23;
+}
+
+.slider-single .slick-prev {
+  left: 14px;
+}
+
+.slider-single .slick-next {
+  right: 18px;
+}
+
+.slider-single img {
+  width: 100%;
+  height: 500px;
+}
+
+.prdctzoomgalry {
+  padding: 60px 0px;
+}
+
+.prodglrydetails {
+  margin-top: 45px;
+}
+
+.prodglrydetails h1 {
+  font-size: 23px;
+  font-weight: 400;
+  padding: 15px 0px;
+}
+
+.prodglrydetails p {
+  color: #7bae23;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.prodglrydetails i {
+  color: #3c3d3d;
+}
+
+.prodglrydetails span {
+  color: #3c3d3d;
+  padding-left: 3px;
+}
+
+.prodglrydetails fieldset {
+  border: 1px solid #c7c7c7;
+  padding: 15px 20px;
+}
+
+.prodglrydetails fieldset legend {
+  font-size: 15px;
+  color: #5c5c5c;
+}
+
+.prodglrydetails fieldset img {
+  width: 70px;
+  margin-right: 10px;
+}
+
+.number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid #ddd;
+}
+
+.number .minus,
+.number .plus {
+  width: 20px;
+  border-radius: 4px;
+  padding: 8px 5px 8px 5px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  color: #727272;
+  cursor: pointer;
+}
+
+.number input {
+  width: 50px;
+  text-align: center;
+  font-size: 17px;
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+  vertical-align: middle;
+  color: #727272;
+}
+
+.cartsec {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.cartsec span {
+  cursor: pointer;
+}
+
+.cartsec a {
+  font-size: 15px;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #252525;
+  margin: 0px 10px;
+  color: #252525;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.cartsec a:hover {
+  background: #7bae23;
+  color: #fff;
+  border: 1px solid #7bae23;
+}
+
+.cartsec .added {
+  width: 40px;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  border: 1px solid #727272;
+  color: #727272;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.cartsec .added:hover {
+  background: #7bae23;
+  color: #fff;
+  border: 1px solid #7bae23;
+}
+
+.desreviewsection .nav {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.desreviewsection #myTabContent {
+  width: 85%;
+  margin: auto;
+  padding: 20px 0px;
+}
+
+.desreviewsection #myTabContent p {
+  padding: 10px 0px;
+  color: #303131;
+  line-height: 125%;
+}
+
+.desreviewsection #myTabContent h5 {
+  color: #303131;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.desreviewsection #myTabContent i {
+  color: #303131;
+}
+
+.desreviewsection #myTabContent a {
+  font-size: 15px;
+  display: inline-block;
+  color: #303131;
+}
+
+.js .slider-single > div:nth-child(1n + 2) {
+  display: none;
+}
+
+.js .slider-single.slick-initialized > div:nth-child(1n + 2) {
+  display: block;
+}
+
+.zoom {
+  width: 100%;
+}
+
+.zoom img:hover {
+  opacity: 0;
+}
+
+.zoom img {
+  -webkit-transition: opacity 0.5s;
+  transition: opacity 0.5s;
+  display: block;
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */

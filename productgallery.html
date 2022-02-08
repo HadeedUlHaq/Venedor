@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Vendedor</title>
+	<link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+	<link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./css/style.css" />
+	<link rel="stylesheet" href="./node_modules/slick-carousel/slick/slick.css">
+	<link rel="stylesheet" href="./node_modules/slick-carousel/slick/slick-theme.css">
+	<link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+	<!-- header -->
+	<header>
+		<!-- up section of header -->
+		<div class="headup d-flex justify-content-between">
+			<div class="headleftwrap">
+				<a href="#">Welcome to venedor!</a>
+				<a href="#">Wishlist(0)</a>
+				<a href="#">Compare(0)</a>
+			</div>
+			<div class="headrightwrap d-flex">
+				<a href="#">Login</a>
+				<ul>
+					<li>
+						<a href="#"><img src="./img/cad.png" alt="" /><span>CAD</span><i
+								class="bi bi-caret-down-fill"></i></a>
+						<ul>
+							<li>
+								<a href="#"><img src="./img/usa.png" alt="" /><span>USA</span></a>
+							</li>
+							<li>
+								<a href="#"><img src="./img/euro.png" alt="" /><span>EUR</span></a>
+							</li>
+							<li>
+								<a href="#"><img src="./img/gbp.png" alt="" /><span>GBP</span></a>
+							</li>
+							<li>
+								<a href="#"><img src="./img/aud.png" alt="" /><span>AUD</span></a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<a href="#">Welcome to venedor(0)</a>
+			</div>
+		</div>
+		<!-- navbar -->
+		<nav class="navbar navbar-expand-lg">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"><img src="./img/logo.png" alt="" /></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="" href="#">
+								PAGES <i class="bi bi-caret-down-fill"></i></a>
+
+							<ul>
+								<li><a href="#">Contact Us </a></li>
+								<li>
+									<a href="#">About Us </a>
+								</li>
+								<li><a href="#">Terms & Conditions</a></li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="" href="#">BLOG</a>
+						</li>
+						<li class="nav-item">
+							<a class="" href="#">
+								SUPPORT <i class="bi bi-caret-down-fill"></i></a>
+							<ul>
+								<li><a href="#">Contact Us </a></li>
+								<li><a href="#">Documentation </a></li>
+								<li>
+									<a href="#">Video Guides</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<div class="headsrch">
+								<a href="#"><i class="bi bi-search"></i></a>
+								<input type="text" placeholder="search our store" />
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- formalities -->
+	<div class="row headdown">
+		<div class="col-md-4 d-flex justify-content-center align-items-center text-light border-end">
+			<i class="bi bi-truck"></i>
+			<div>
+				<p>FREE DELIVERY</p>
+				<span>on orders over $100</span>
+			</div>
+		</div>
+		<div class="col-md-4 d-flex justify-content-center align-items-center text-light border-end">
+			<i class="bi bi-gift-fill"></i>
+			<div>
+				<p>CHOOSE A FREE GIFT</p>
+				<span>with every purchase</span>
+			</div>
+		</div>
+		<div class="col-md-4 d-flex justify-content-center align-items-center text-light border-end">
+			<i class="bi bi-lock-fill"></i>
+			<div>
+				<p>100% SECURE SHOPPING</p>
+				<span>mauris ac pulvinar</span>
+			</div>
+		</div>
+	</div>
+
+	<!-- gallery -->
+	<div class="container">
+		<div class="prdctzoomgalry row">
+			<div class="col-md-6">
+				<div class="row">
+					<!-- small images here -->
+					<div class="slider slider-nav col-md-3">
+						<div>
+							<div class="smllimg">
+								<img src="./img/prdgallery1.jpg" alt="" />
+							</div>
+						</div>
+						<div>
+							<div class="smllimg">
+								<img src="./img/prdgallery2.jpg" alt="" />
+							</div>
+						</div>
+						<div>
+							<div class="smllimg">
+								<img src="./img/prdgallery3.jpg" alt="" />
+							</div>
+						</div>
+						<div>
+							<div class="smllimg">
+								<img src="./img/prdgallery4.jpg" alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="slider slider-single col-md-9">
+						<div>
+							<div class="zoom" onmousemove="zoom(event)"
+								style="background-image: url(./img/bigimg1.jpg)">
+								<img src="./img/bigimg1.jpg" />
+							</div>
+						</div>
+						<div>
+							<div class="zoom" onmousemove="zoom(event)"
+								style="background-image: url(./img/bigimg2.jpg)">
+								<img src="./img/bigimg2.jpg" />
+							</div>
+						</div>
+						<div>
+							<div class="zoom" onmousemove="zoom(event)"
+								style="background-image: url(./img/bigimg3.jpg)">
+								<img src="./img/bigimg3.jpg" />
+							</div>
+						</div>
+						<div>
+							<div class="zoom" onmousemove="zoom(event)"
+								style="background-image: url(./img/bigimg4.jpg)">
+								<img src="./img/bigimg3.jpg" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="prodglrydetails">
+					<h1>Ultra-wide Top Game Monitor</h1>
+					<p>£67</p>
+					<div class="row mt-3">
+						<div class="col-md-6">
+							<div class="d-flex">
+								<div class="star">
+									<i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+										class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+										class="bi bi-star-half"></i>
+								</div>
+								<span>1 review</span>
+							</div>
+							<div class="d-flex mt-1 mb-1">
+								<span>Availability:</span>
+								<span>15 in stock</span>
+							</div>
+							<div class="d-flex">
+								<span>SKU:</span>
+								<span>12</span>
+							</div>
+						</div>
+						<div class="col-md-6"></div>
+					</div>
+					<div class="cartsec mt-4">
+						<div class="number">
+							<span class="minus">-</span>
+							<input type="text" value="1" />
+							<span class="plus">+</span>
+						</div>
+						<a href="">ADD TO CART</a>
+						<div class="added">
+							<i class="bi bi-heart"></i>
+						</div>
+					</div>
+					<fieldset class="mt-4">
+						<legend>Guaranteed Safe Checkout</legend>
+						<div class="checkout d-flex">
+							<img src="./img/mastercard.svg" alt="" />
+							<img src="./img/paypal.svg" alt="" />
+							<img src="./img/visa.svg" alt="" />
+							<img src="./img/ames.svg" alt="" />
+							<img src="./img/discover.svg" alt="" />
+							<img src="./img/opay.svg" alt="" />
+						</div>
+					</fieldset>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- product full description reveiew -->
+	<div class="desreviewsection mb-5">
+		<div class="container">
+			<ul class="nav nav-tabs" id="myTab" role="tablist">
+				<li class="nav-item" role="presentation">
+					<button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#description"
+						type="button" role="tab" aria-controls="home" aria-selected="true">
+						DESCRIPTION
+					</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#review"
+						type="button" role="tab" aria-controls="profile" aria-selected="false">
+						REVIEWS
+					</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#prodcutvideo"
+						type="button" role="tab" aria-controls="contact" aria-selected="false">
+						PRODUCT VIDEO
+					</button>
+				</li>
+				<li class="nav-item" role="presentation">
+					<button class="nav-link" data-bs-toggle="tab" data-bs-target="#custabtab" type="button" role="tab"
+						aria-controls="contact" aria-selected="false">
+						CUSTOM TAB
+					</button>
+				</li>
+			</ul>
+		</div>
+		<div class="tab-content" id="myTabContent">
+			<div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="home-tab">
+				<p>
+					A computer monitor is an output device that displays information in
+					pictorial form. A monitor usually comprises the visual display,
+					circuitry, casing, and power supply. The display device in modern
+					monitors is typically a thin film transistor liquid crystal display
+					(TFT-LCD) with LED backlighting having replaced cold-cathode
+					fluorescent lamp (CCFL) backlighting. Older monitors used a cathode
+					ray tube (CRT).
+				</p>
+				<p>
+					Monitors are connected to the computer via VGA, Digital Visual
+					Interface (DVI), HDMI, DisplayPort, Thunderbolt, low-voltage
+					differential signaling (LVDS) or other proprietary connectors and
+					signals.
+				</p>
+				<p>
+					Originally, computer monitors were used for data processing while
+					television sets were used for entertainment. From the 1980s onwards,
+					computers (and their monitors) have been used for both data
+					processing and entertainment, while televisions have implemented
+					some computer functionality. The common aspect ratio of televisions,
+					and computer monitors, has changed from 4:3 to 16:10, to 16:9.
+				</p>
+			</div>
+			<div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="profile-tab">
+				<div class="d-flex justify-content-between">
+					<div>
+						<h5>CUSTOMER REVIEWS</h5>
+						<div class="star">
+							<i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+								class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+								class="bi bi-star-half"></i>
+						</div>
+					</div>
+					<a href="#">WRITE A REVIEW</a>
+				</div>
+				<div class="d-flex justify-content-between mt-4">
+					<div>
+						<h5>CUSTOMER REVIEWS</h5>
+						<div class="star">
+							<i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+								class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+								class="bi bi-star-half"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tab-pane fade" id="prodcutvideo" role="tabpanel" aria-labelledby="contact-tab">
+				<p>No VIdeo</p>
+			</div>
+			<div class="tab-pane fade" id="custabtab" role="tabpanel" aria-labelledby="contact-tab">
+				<p>
+					While there isn't a law requiring ecommerce stores to have a Return
+					Policy, you may need one if you wish to enforce your terms and
+					parameters of returns and refunds.
+				</p>
+				<p>
+					For example, in the state of New York, if a retailer does not
+					provide a Return & Refund Policy, the retailer will be required to
+					accept returns and give refunds for all merchandise returned within
+					30 days of purchase. If you wish to limit this in any way, you will
+					need to create and post a Return Policy with your own custom terms.
+				</p>
+				<p>
+					Another reason for having a Return Policy even if not required by
+					law is that most consumers prefer to shop at retailers with a
+					clearly-posted Return Policy. This is especially important when
+					shopping online, as more issues are likely when purchasing something
+					without being able to see it in person first. If you don't have a
+					Return Policy, you may be at the mercy of state laws regulating
+					return and refund timeframes. You may also lose potential customers
+					who are concerned about not being able to return a product if they
+					need or want to.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<div class="footer">
+		<div class="foupsec">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="d-flex justify-content-center">
+							<img src="./img/plane.svg" alt="" />
+							<div>
+								<h2>Sign up for our newsletter</h2>
+								<p>and enjoy <span>-15% off</span> your first purchase!</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="newsletter">
+							<input type="email" placeholder="Email address" />
+							<input type="submit" value="SUBSCRIBE" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footerlist">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<ul>
+							<li>INFORMATION</li>
+							<li><a href="#">New Products</a></li>
+							<li><a href="#">Top sellers</a></li>
+							<li><a href="#">Specials </a></li>
+							<li><a href="#">Terms and conditions </a></li>
+							<li><a href="#">Legal notice </a></li>
+							<li><a href="#">Delivery </a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<ul>
+							<li>MY ACCOUNT</li>
+							<li><a href="#">My Account</a></li>
+							<li><a href="#">Register</a></li>
+							<li><a href="#">Search </a></li>
+							<li><a href="#">Wishlist </a></li>
+							<li><a href="#">Best sellers </a></li>
+							<li><a href="#">Latest news </a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-3">
+						<ul>
+							<li>CUSTOMER SERVICE</li>
+							<li><a href="#">Help & contact</a></li>
+							<li><a href="#">Top sellers</a></li>
+							<li><a href="#">Specials </a></li>
+							<li><a href="#">Terms and conditions </a></li>
+							<li><a href="#">Legal notice </a></li>
+							<li><a href="#">Delivery </a></li>
+						</ul>
+					</div>
+					<div class="col-md-3">
+						<ul>
+							<li>QUICK CONTACT</li>
+							<li class="foform">
+								<img src="./img/location.png" alt="" />
+								<input type="email" placeholder="Enter your e-mail*" />
+								<textarea name="" placeholder="Write your review*"></textarea>
+								<button>SEND</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="fodownsec">
+			<div class="container d-flex justify-content-between align-items-center">
+				<span>© Venedor Shopify Theme. Powered by Hadeed.</span>
+				<ul class="sociallist">
+					<li><i class="bi bi-facebook"></i></li>
+					<li><i class="bi bi-twitter"></i></li>
+					<li><i class="bi bi-pinterest"></i></li>
+					<li><i class="bi bi-snapchat"></i></li>
+					<li><i class="bi bi-youtube"></i></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="./node_modules/slick-carousel/slick/slick.min.js"></script>
+	<script src="./js/script.js"></script>	
+	<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script>
+		$(".slider-single").slick({
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			arrows: true,
+			fade: false,
+			adaptiveHeight: true,
+			infinite: false,
+			useTransform: true,
+			speed: 400,
+			cssEase: "cubic-bezier(0.77, 0, 0.18, 1)",
+		});
+
+		$(".slider-nav")
+			.on("init", function (event, slick) {
+				$(".slider-nav .slick-slide.slick-current").addClass("is-active");
+			})
+			.slick({
+				slidesToShow: 7,
+				slidesToScroll: 7,
+				dots: false,
+				focusOnSelect: false,
+				infinite: false,
+				responsive: [
+					{
+						breakpoint: 1024,
+						settings: {
+							slidesToShow: 5,
+							slidesToScroll: 5,
+						},
+					},
+					{
+						breakpoint: 640,
+						settings: {
+							slidesToShow: 4,
+							slidesToScroll: 4,
+						},
+					},
+					{
+						breakpoint: 420,
+						settings: {
+							slidesToShow: 3,
+							slidesToScroll: 3,
+						},
+					},
+				],
+			});
+
+		$(".slider-single").on(
+			"afterChange",
+			function (event, slick, currentSlide) {
+				$(".slider-nav").slick("slickGoTo", currentSlide);
+				var currrentNavSlideElem =
+					'.slider-nav .slick-slide[data-slick-index="' + currentSlide + '"]';
+				$(".slider-nav .slick-slide.is-active").removeClass("is-active");
+				$(currrentNavSlideElem).addClass("is-active");
+			}
+		);
+
+		$(".slider-nav").on("click", ".slick-slide", function (event) {
+			event.preventDefault();
+			var goToSingleSlide = $(this).data("slick-index");
+
+			$(".slider-single").slick("slickGoTo", goToSingleSlide);
+		});
+	</script>
+	<script>
+		function zoom(e) {
+			var zoomer = e.currentTarget;
+			e.offsetX ? (offsetX = e.offsetX) : (offsetX = e.touches[0].pageX);
+			e.offsetY ? (offsetY = e.offsetY) : (offsetX = e.touches[0].pageX);
+			x = (offsetX / zoomer.offsetWidth) * 100;
+			y = (offsetY / zoomer.offsetHeight) * 100;
+			zoomer.style.backgroundPosition = x + "% " + y + "%";
+		}
+	</script>
+	<script>
+		$(document).ready(function () {
+			$(".minus").click(function () {
+				var $input = $(this).parent().find("input");
+				var count = parseInt($input.val()) - 1;
+				count = count < 1 ? 1 : count;
+				$input.val(count);
+				$input.change();
+				return false;
+			});
+			$(".plus").click(function () {
+				var $input = $(this).parent().find("input");
+				$input.val(parseInt($input.val()) + 1);
+				$input.change();
+				return false;
+			});
+		});
+	</script>
+</body>
+
+</html>
