@@ -332,6 +332,19 @@ header {
       left: 0px;
       transition: all 0.4s;
       opacity: 0;
+      .hover-icons{
+        position: absolute;
+        bottom: 100px;
+        left: 20px;
+        i {
+          margin: 5px;
+          font-size: 18px;
+          align-items: center;
+          padding: 10px;
+          color: white;
+          background-color: #3f3f3f;
+        }
+      }
     }
   }
   &:hover .prdctimg .hoverimg {
@@ -620,6 +633,19 @@ header {
   }
 }
 // footer
+.venifits-2{
+  p{
+    font-weight: 600;
+    padding-top: 15px;
+    display: inline-block;
+    font-size: 14px;
+  }
+  i{
+    display: inline-block;
+    padding: 10px;
+    font-size: 40px;
+  }
+}
 .foupsec {
   background: #7bae23;
   color: #fff;
@@ -708,7 +734,7 @@ header {
 // for gallery
 .slider-nav {
   div {
-    width: 100px;
+    width: 140px;
     background-color: #fff;
   }
   .slick-track {

@@ -403,6 +403,23 @@ header ul > li:hover > ul {
   opacity: 0;
 }
 
+.prdocutimgsec .prdctimg .hoverimg .hover-icons {
+  position: absolute;
+  bottom: 100px;
+  left: 20px;
+}
+
+.prdocutimgsec .prdctimg .hoverimg .hover-icons i {
+  margin: 5px;
+  font-size: 18px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+  color: white;
+  background-color: #3f3f3f;
+}
+
 .prdocutimgsec:hover .prdctimg .hoverimg {
   opacity: 1;
 }
@@ -716,6 +733,19 @@ header ul > li:hover > ul {
      object-fit: cover;
 }
 
+.venifits-2 p {
+  font-weight: 600;
+  padding-top: 15px;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.venifits-2 i {
+  display: inline-block;
+  padding: 10px;
+  font-size: 40px;
+}
+
 .foupsec {
   background: #7bae23;
   color: #fff;
@@ -816,7 +846,7 @@ header ul > li:hover > ul {
 }
 
 .slider-nav div {
-  width: 100px;
+  width: 140px;
   background-color: #fff;
 }
 
