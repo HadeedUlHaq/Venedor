@@ -405,8 +405,11 @@ header ul > li:hover > ul {
 
 .prdocutimgsec .prdctimg .hoverimg .hover-icons {
   position: absolute;
-  bottom: 100px;
-  left: 20px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .prdocutimgsec .prdctimg .hoverimg .hover-icons i {
@@ -1088,5 +1091,38 @@ header ul > li:hover > ul {
   transition: opacity 0.5s;
   display: block;
   width: 100%;
+}
+
+.fontsize {
+  font-size: 15px;
+  color: #545454;
+}
+
+.contact {
+  width: 60%;
+  margin: auto;
+  padding: 50px 0px;
+  color: #545454;
+}
+
+.contact h5 {
+  color: #333333;
+}
+
+.contact .logo {
+  width: 170px;
+  display: block;
+}
+
+.contact .logo img {
+  width: 100%;
+}
+
+.breadcrumb .active a {
+  color: #2d2d2e;
+}
+
+.breadcrumb a {
+  color: #6c757d;
 }
 /*# sourceMappingURL=style.css.map */

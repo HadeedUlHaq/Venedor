@@ -334,9 +334,11 @@ header {
       opacity: 0;
       .hover-icons{
         position: absolute;
-        bottom: 100px;
-        left: 20px;
-        i {
+        top: 50%;
+        left: 50%;
+        transform: translate( -50%, -50% );
+        text-align: center;
+        i{
           margin: 5px;
           font-size: 18px;
           align-items: center;
@@ -350,6 +352,7 @@ header {
   &:hover .prdctimg .hoverimg {
     opacity: 1;
   }
+
 }
 .prodctdtails {
   span {
@@ -931,4 +934,33 @@ header {
   transition: opacity 0.5s;
   display: block;
   width: 100%;
+}
+// contact
+.fontsize {
+  font-size: 15px;
+  color: #545454;
+}
+.contact {
+  width: 60%;
+  margin: auto;
+  padding: 50px 0px;
+  color: #545454;
+  h5 {
+    color: #333333;
+  }
+  .logo {
+    width: 170px;
+    display: block;
+    img {
+      width: 100%;
+    }
+  }
+}
+.breadcrumb {
+  .active a {
+    color: #2d2d2e;
+  }
+  a {
+    color: #6c757d;
+  }
 }
