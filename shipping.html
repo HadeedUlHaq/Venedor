@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Vendedor</title>
+	<link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+	<link href="./node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./css/style.css" />
+	<link rel="stylesheet" href="./node_modules/slick-carousel/slick/slick.css">
+	<link rel="stylesheet" href="./node_modules/slick-carousel/slick/slick-theme.css">
+	<link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <!-- up section of header -->
+        <div class="headup d-flex justify-content-between">
+            <div class="headleftwrap">
+                <a href="#">Welcome to venedor!</a>
+                <a href="#">Wishlist(0)</a>
+                <a href="#">Compare(0)</a>
+            </div>
+            <div class="headrightwrap d-flex">
+                <a href="#">Login</a>
+                <ul>
+                    <li>
+                        <a href="#"><img src="./img/cad.png" alt="" /><span>CAD</span><i
+                                class="bi bi-caret-down-fill"></i></a>
+                        <ul>
+                            <li>
+                                <a href="#"><img src="./img/usa.png" alt="" /><span>USA</span></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="./img/euro.png" alt="" /><span>EUR</span></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="./img/gbp.png" alt="" /><span>GBP</span></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="./img/aud.png" alt="" /><span>AUD</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <a href="#">Welcome to venedor(0)</a>
+            </div>
+        </div>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="" href="#">
+                                PAGES <i class="bi bi-caret-down-fill"></i></a>
+
+                            <ul>
+                                <li><a href="#">Contact Us </a></li>
+                                <li>
+                                    <a href="#">About Us </a>
+                                </li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="" href="#">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="" href="#">
+                                SUPPORT <i class="bi bi-caret-down-fill"></i></a>
+                            <ul>
+                                <li><a href="#">Contact Us </a></li>
+                                <li><a href="#">Documentation </a></li>
+                                <li>
+                                    <a href="#">Video Guides</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <div class="headsrch">
+                                <a href="#"><i class="bi bi-search"></i></a>
+                                <input type="text" placeholder="search our store" />
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- shoppping cart section -->
+    <div class="shoppingcart">
+        <div class="container">
+            <div class="title">
+                <h1>Shopping Cart</h1>
+            </div>
+            <small>Sign up and get 10% off your first order.</small>
+        </div>
+        <!-- carlist and checkout section -->
+        <div class="container">
+            <div class="row">
+                <!-- cartlist -->
+                <div class="col-md-9">
+                    <div class="cartlistwrap">
+                        <div class="row cartlistname">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-5">PRODUCT NAME</div>
+                            <div class="col-md-1">PRICE</div>
+                            <div class="col-md-3">QUANTITY</div>
+                        </div>
+                        <div class="row cartlistdetails">
+                            <div class="col-md-3">
+                                <img src="./img/pimgh3.jpg" alt="" />
+                            </div>
+                            <div class="col-md-5">
+                                <h3>Hydrocarbon Dry Cleaning Machine</h3>
+                                <small>Size: Small</small>
+                                <small>Color: #d2d2d1</small>
+                            </div>
+                            <div class="col-md-1">
+                                <p>£67</p>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="cartnumber">
+                                    <div class="number">
+                                        <span class="minus">-</span>
+                                        <input type="text" value="1" />
+                                        <span class="plus">+</span>
+                                    </div>
+                                    <a href="#"><i class="bi bi-x"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="buttnsec d-flex d-flex justify-content-between">
+                            <button>CONTINUE SHOPPING</button>
+                            <button class="btn btn-primary">UPDATE CART</button>
+                        </div>
+                    </div>
+
+                    <!-- speacial instructions for seller -->
+                    <div class="speaicinstruc">
+                        <div class="cartlistname text-start">
+                            Special instructions for seller
+                        </div>
+                        <textarea name=""></textarea>
+                    </div>
+                </div>
+                <!-- checkout -->
+                <div class="col-md-3">
+                    <div class="checkout">
+                        <div class="btn btn-primary w-100">CHECK OUT</div>
+                        <a class="" data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false"
+                            aria-controls="collapseExample">
+                            ESTIMATE SHIPPING & TAXES
+                            <i class="bi bi-caret-down-fill"></i>
+                        </a>
+                        <div class="collapse show" id="collapseExample">
+                            <div class="card card-body">
+                                <p>Enter your destination to get a shipping estimate.</p>
+
+                                <form class="row g-3">
+                                    <div class="col-12">
+                                        <label for="inputState" class="form-label">Country*</label>
+                                        <select id="inputState" class="form-select">
+                                            <option selected>Choose...</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="inputState" class="form-label">State*</label>
+                                        <select id="inputState" class="form-select">
+                                            <option selected>Choose...</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="inputZip" class="form-label">Postal/Zip code*</label>
+                                        <input type="text" class="form-control" id="inputZip" />
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="w-100">GET A QUOTE</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="totalcost">
+                            <a class="" data-bs-toggle="collapse" href="#totalcost" aria-expanded="false"
+                                aria-controls="collapseExample">
+                                CART TOTALS
+                                <i class="bi bi-caret-down-fill"></i>
+                            </a>
+                            <div class="collapse show" id="totalcost">
+                                <div class="card card-body">
+                                    <form class="row g-3">
+                                        <div class="col-12">
+                                            <div class="d-flex justify-content-between">
+                                                <span>Subtotal</span>
+                                                <span>£67</span>
+                                            </div>
+                                            <div class="d-flex justify-content-between mt-2 mb-3">
+                                                <span>You're saving</span>
+                                                <span>£0</span>
+                                            </div>
+                                            <span>Shipping & taxes calculated at checkout</span>
+                                        </div>
+                                        <hr />
+                                        <div class="d-flex justify-content-between">
+                                            <span>Grand Total</span>
+                                            <span style="color: #7bae23; font-weight: bold">£67</span>
+                                        </div>
+                                        <div class="col-12">
+                                            <button type="submit" class="w-100">CHECK OUT</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footerlist">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <ul>
+                            <li>INFORMATION</li>
+                            <li><a href="#">New Products</a></li>
+                            <li><a href="#">Top sellers</a></li>
+                            <li><a href="#">Specials </a></li>
+                            <li><a href="#">Terms and conditions </a></li>
+                            <li><a href="#">Legal notice </a></li>
+                            <li><a href="#">Delivery </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul>
+                            <li>MY ACCOUNT</li>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Register</a></li>
+                            <li><a href="#">Search </a></li>
+                            <li><a href="#">Wishlist </a></li>
+                            <li><a href="#">Best sellers </a></li>
+                            <li><a href="#">Latest news </a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-3">
+                        <ul>
+                            <li>CUSTOMER SERVICE</li>
+                            <li><a href="#">Help & contact</a></li>
+                            <li><a href="#">Top sellers</a></li>
+                            <li><a href="#">Specials </a></li>
+                            <li><a href="#">Terms and conditions </a></li>
+                            <li><a href="#">Legal notice </a></li>
+                            <li><a href="#">Delivery </a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <ul>
+                            <li>QUICK CONTACT</li>
+                            <li class="foform">
+                                <img src="./img/location.png" alt="" />
+                                <input type="email" placeholder="Enter your e-mail*" />
+                                <textarea name="" placeholder="Write your review*"></textarea>
+                                <button>SEND</button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="fodownsec">
+            <div class="container d-flex justify-content-between align-items-center">
+                <span>© Venedor Shopify Theme. Powered by Hadeed.</span>
+                <ul class="sociallist">
+                    <li><i class="bi bi-facebook"></i></li>
+                    <li><i class="bi bi-twitter"></i></li>
+                    <li><i class="bi bi-pinterest"></i></li>
+                    <li><i class="bi bi-snapchat"></i></li>
+                    <li><i class="bi bi-youtube"></i></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+	<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="./node_modules/slick-carousel/slick/slick.min.js"></script>
+	<script src="./js/script.js"></script>	
+	<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".minus").click(function () {
+                var $input = $(this).parent().find("input");
+                var count = parseInt($input.val()) - 1;
+                count = count < 1 ? 1 : count;
+                $input.val(count);
+                $input.change();
+                return false;
+            });
+            $(".plus").click(function () {
+                var $input = $(this).parent().find("input");
+                $input.val(parseInt($input.val()) + 1);
+                $input.change();
+                return false;
+            });
+        });
+    </script>
+</body>
+
+</html>
