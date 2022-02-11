@@ -1,0 +1,98 @@
+// footer
+.venifits-2{
+    p{
+      font-weight: 600;
+      padding-top: 15px;
+      display: inline-block;
+      font-size: 14px;
+    }
+    i{
+      display: inline-block;
+      padding: 10px;
+      font-size: 40px;
+    }
+  }
+  .foupsec {
+    background: #7bae23;
+    color: #fff;
+    padding: 30px 0px;
+    img {
+      width: 50px;
+      margin-right: 10px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+    p {
+      span {
+        font-weight: bold;
+      }
+    }
+    .newsletter {
+      padding: 0px 50px;
+      display: grid;
+      grid-template-columns: 70% auto;
+      input {
+        padding: 15px 20px;
+        font-size: 17px;
+      }
+      input[type="email"] {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border: none;
+      }
+      input[type="submit"] {
+        border: none;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background: #5c8d06;
+        color: #fff;
+      }
+    }
+  }
+  .footerlist {
+    background: #323333;
+    padding: 40px 0px;
+    ul li {
+      color: #fff;
+      &:first-child {
+        padding: 17px 0px;
+      }
+      a {
+        display: block;
+        color: #d5d5d5;
+        padding: 06px 0px;
+      }
+    }
+    .foform {
+      input,
+      textarea,
+      img {
+        width: 100%;
+      }
+      input,
+      textarea {
+        border: none;
+        padding: 10px 5px;
+        font-size: 14px;
+        margin-top: 5px;
+        background: #3c3d3d;
+        color: #fff;
+      }
+      button {
+        border: 2px solid #fff;
+        color: #fff;
+      }
+    }
+  }
+  .fodownsec {
+    background: #303131;
+    padding: 40px 0px;
+    color: #fff;
+  }
+  .sociallist li {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid #404141;
+    color: #999999;
+  }

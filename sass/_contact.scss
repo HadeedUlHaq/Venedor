@@ -1,0 +1,29 @@
+// contact
+.fontsize {
+    font-size: 15px;
+    color: #545454;
+  }
+  .contact {
+    width: 60%;
+    margin: auto;
+    padding: 50px 0px;
+    color: #545454;
+    h5 {
+      color: #333333;
+    }
+    .logo {
+      width: 170px;
+      display: block;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .breadcrumb {
+    .active a {
+      color: #2d2d2e;
+    }
+    a {
+      color: #6c757d;
+    }
+  }

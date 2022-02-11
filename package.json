@@ -4,7 +4,9 @@
   "description": "bootstrap with npm",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass-dev": "sass --watch --update --style=expanded sass:css",
+    "sass-prod": "sass --no-source-map --style=compressed sass:css"
   },
   "author": "Hadeed Ul Haq",
   "license": "ISC",

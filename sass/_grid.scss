@@ -1,0 +1,33 @@
+// grid section
+.brder {
+    border: 3px solid #ffffff;
+    &:hover {
+      border: 3px solid #7bae23;
+    }
+  }
+  .gridsec {
+    position: relative;
+  
+    .gridtxtwrap {
+      position: absolute;
+      padding: 10px 20px;
+      top: 40%;
+      width: 100%;
+      color: #1e1f1d;
+  
+      p {
+        font-size: 15px;
+        font-weight: 600;
+      }
+      h2 {
+        font-weight: 800;
+        font-size: 27px;
+        line-height: 105%;
+      }
+    }
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
