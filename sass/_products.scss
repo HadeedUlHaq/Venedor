@@ -91,3 +91,18 @@
       font-size: 13px;
     }
   }
+//latest products tabs
+.nav-tabs{
+  border-bottom: none;
+  .nav-link{
+    color: #1f1e1e !important;
+    opacity: 0.5;
+    border: none;
+    font-style: italic;
+  }
+  .active{
+    color: #7bae23 !important;
+    opacity: 1;
+    font-weight: 600;
+  }
+}

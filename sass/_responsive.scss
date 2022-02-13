@@ -1,0 +1,199 @@
+//responsive
+@media screen and (max-width: 1200px) {
+    .leftwrap .productcard .discout {
+      left: 10px;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    header {
+      padding: 10px 12px;
+    }
+    .headup a {
+      padding: 8px 12px;
+      color: #757575;
+      font-size: 13px;
+    }
+    .herosec .slideshow .slideshow__item img {
+      height: 70vh;
+      object-fit: cover;
+    }
+    .rightsidebar {
+      display: none;
+    }
+    .gridsec .gridtxtwrap {
+      top: 5%;
+      h2 {
+        font-size: 20px;
+      }
+      p {
+        font-size: 11px;
+        padding-bottom: 10px;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .headup {
+      display: none !important;
+    }
+    .desreviewsection #myTabContent {
+      width: 91.5%;
+      padding: 20px 12px;
+      border: 1px solid #e0e0e0;
+    }
+    .desreviewsection .nav {
+      display: block;
+      li {
+        color: #7bae23;
+        background-color: #fff;
+        border: 1px solid #e0e0e0;
+        border-bottom: none;
+      }
+    }
+    .nav-tabs .nav-item.show .nav-link,
+    .nav-tabs .nav-link.active {
+      color: #7bae23;
+      background-color: transparent;
+      border: none;
+      font-weight: bold;
+    }
+    .nav-tabs .nav-item.show .nav-link,
+    .nav-tabs .nav-link {
+      color: #000;
+      background-color: transparent;
+      border: none;
+      font-weight: bold;
+      &:hover {
+        border: none;
+      }
+    }
+    .backgroundwhite {
+      background: #fff;
+    }
+    .herosec .slideshow .slideshow__item .txtwrap {
+      right: 0%;
+      width: 80%;
+      left: 50%;
+      transform: translate(-50%);
+      padding: 50px 20px;
+    }
+    .container,
+    .container-sm {
+      max-width: 95% !important;
+      margin: auto !important;
+    }
+    .gridsec .gridtxtwrap {
+      top: 5%;
+      h2 {
+        font-size: 16px;
+      }
+      p {
+        font-size: 11px;
+      }
+    }
+    .fourgrid p {
+      font-size: 13px;
+    }
+    .headdown {
+      .align-items-center {
+        align-items: start !important;
+        border-bottom: 2px solid #fff;
+        padding-top: 10px;
+        &:last-child {
+          border-bottom: none;
+        }
+      }
+      .justify-content-center {
+        justify-content: start !important;
+      }
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .slideshow .slide-arrow {
+      display: none !important;
+    }
+    .headsrch {
+      display: none !important;
+    }
+    .herosec .slideshow .slideshow__item img {
+      height: 60vh;
+      object-fit: cover;
+    }
+    .herosec .slideshow .slideshow__item .txtwrap h1 {
+      font-size: 25px;
+    }
+    .herosec .slideshow .slideshow__item .txtwrap a {
+      padding: 10px 13px;
+  
+      font-size: 14px;
+    }
+    .nav-item button {
+      font-size: 13px;
+      font-weight: bold;
+    }
+    .newsimg {
+      height: 140px;
+    }
+    .latesnews .details h4 {
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .latesnews .details p {
+      font-size: 10px;
+    }
+    .desreviewsection #myTabContent {
+      width: 90%;
+      padding: 20px 12px;
+      border: 1px solid #e0e0e0;
+    }
+    .desreviewsection #myTabContent p {
+      font-size: 15px;
+    }
+    .slider-nav .smllimg {
+      width: 85px;
+      height: 85px;
+      cursor: pointer;
+      margin: 5px 0px;
+      transition: 0.5s;
+    }
+    .slider-single img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+    }
+    .foupsec {
+      h2 {
+        font-size: 17px;
+      }
+      p {
+        font-size: 14px;
+      }
+      img {
+        width: 42px;
+        margin-right: 17px;
+      }
+    }
+    .foupsec .newsletter {
+      padding: 0px;
+      display: grid;
+      grid-template-columns: 68% auto;
+      margin-top: 10px;
+      input {
+        padding: 13px 15px;
+        font-size: 13px;
+        font-weight: bold;
+      }
+    }
+    .fodownsec .d-flex {
+      flex-direction: column;
+    }
+    .sociallist {
+      margin-top: 17px;
+    }
+    .prdctzoomgalry{
+      .row{
+        display: inline;
+        width: 20%;
+        height: auto;
+      }
+    }
+  }
