@@ -49,27 +49,11 @@
         border-bottom: none;
       }
     }
-    .nav-tabs .nav-item.show .nav-link,
-    .nav-tabs .nav-link.active {
-      color: #7bae23;
-      background-color: transparent;
-      border: none;
-      font-weight: bold;
-    }
-    .nav-tabs .nav-item.show .nav-link,
-    .nav-tabs .nav-link {
-      color: #000;
-      background-color: transparent;
-      border: none;
-      font-weight: bold;
-      &:hover {
-        border: none;
-      }
-    }
     .backgroundwhite {
       background: #fff;
     }
     .herosec .slideshow .slideshow__item .txtwrap {
+      top: 8%;
       right: 0%;
       width: 80%;
       left: 50%;
@@ -188,12 +172,5 @@
     }
     .sociallist {
       margin-top: 17px;
-    }
-    .prdctzoomgalry{
-      .row{
-        display: inline;
-        width: 20%;
-        height: auto;
-      }
     }
   }
