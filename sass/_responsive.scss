@@ -30,6 +30,9 @@
         padding-bottom: 10px;
       }
     }
+    .additiondetails{
+      display: flex;
+    }
   }
   @media screen and (max-width: 768px) {
     .headup {
@@ -172,5 +175,8 @@
     }
     .sociallist {
       margin-top: 17px;
+    }
+    .cartlistname{
+      display: none;
     }
   }
